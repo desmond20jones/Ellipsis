@@ -24,5 +24,22 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  //dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active";
+}
+
+//for menu icon animation
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
+//for side menu animation
+var checkNavOpen = 0;
+function openOrCloseNav() {
+  if (checkNavOpen == 0){
+    document.getElementById("mySidenav").style.width = "250px";
+    checkNavOpen = 1;
+  } else if (checkNavOpen == 1){
+    document.getElementById("mySidenav").style.width = "0";
+    checkNavOpen = 0;
+  }
 }
