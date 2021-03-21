@@ -2,47 +2,14 @@
   background-color: whitesmoke;
   overflow:hidden;
 }
-.topnav a {
-  display: block;
-  justify-content: space-evenly;
- 
-  /*float:flat-justify;
-  flex-wrap: wrap;
-  display:block;
-  text-align: center;*/
-  padding: 2% 2%;
-  text-decoration: none;
-  font-size: 100%;
-  font-family: 'Source Code Pro', monospace;
-}
-* {
-  box-sizing:border-box;
-}
 
 .logo {
   margin: 2%;
-  padding:  1%;
+  padding:  0%;
   float:left;
-  width:20%; /* The width is 20%, by default */
+  /*width:20%; /* The width is 20%, by default */
 }
 
-.homeBtn {
-  padding:1%;
-  float:left;
-  width:20%; /* The width is 20%, by default */
-}
-
-.latestBtn {
-  padding:1%;
-  float:left;
-  width:20%; /* The width is 60%, by default */
-}
-
-.searchBtn {
-  padding:1%;
-  float:left;
-  width:20%; /* The width is 20%, by default */
-}
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
   .left, .main, .right {
@@ -58,9 +25,7 @@ h1{
 body {
   font-family: 'Roboto Slab', serif;
 }
-.logo{
-  float:left;
-  }
+
 .writingBody{
   text-align: center;
 }
@@ -179,4 +144,85 @@ blockquote{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1%;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.topncontainer button:hover {
+  background-color: #ddd;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menuBtn {
+  font-size:30px;
+  cursor:pointer;
+  float:right;
+  padding: 1%;
 }
