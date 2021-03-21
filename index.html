@@ -8,15 +8,28 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=stylesheet href=index.css>
+    <script type="text/javascript" src = "script.js"></script>
     <div class=topnav id=myTopnav>
-      <img class="logo" src=ellipsesLogo.png style=width:10% height:10%>
-      <a href=index.html class="homeBtn" style=color:black style="font-size:10vw">Home</a>
-      <a href=latestMeditations.html class="latestBtn" style=color:black>Latest</a>
-      <a href=search.html class="searchBtn" style=color:black>Search</a>
+      <a href=index.html><img class="logo" src=ellipsisLong.svg style=width:25% height:25%></a>
+      <span class="menuBtn" onclick="openOrCloseNav()">
+      <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
+    </span>
+      <div id="mySidenav" class="sidenav">
+        <a href=index.html>Home</a>
+        <a href=latestMeditations.html>Latest</a>
+        <a href=search.html>Search</a>
+      </div>
+      
       <!--<a href=test.html style=color:black>Test</a>-->
     </div>
+    
   </head>
   <body>
+    
     <h1 >Universal Meditations</h1>
    <div class="slideshow-container">
 
