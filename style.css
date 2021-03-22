@@ -7,6 +7,10 @@
   margin: 2%;
   padding:  0%;
   float:left;
+  width:25%;
+  height:25%;
+  min-width: 200px;
+  min-height: 50px;
   /*width:20%; /* The width is 20%, by default */
 }
 
@@ -146,10 +150,12 @@ blockquote{
   to {opacity: 1}
 }
 
-.container {
-  display: inline-block;
-  cursor: pointer;
-  padding: 1%;
+.menuBtn {
+  font-size:30px;
+  /*display: inline-block;*/
+  cursor:pointer;
+  float:right;
+  padding: max(17px, 2%);
 }
 
 .bar1, .bar2, .bar3 {
