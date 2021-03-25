@@ -1,16 +1,18 @@
 .topnav {
   background-color: whitesmoke;
   overflow:hidden;
+  max-height: 75px;
 }
 
 .logo {
-  margin: 2%;
+  margin: 1%;
   padding:  0%;
   float:left;
   width:25%;
   height:25%;
   min-width: 200px;
   min-height: 50px;
+  max-height: 75px
   /*width:20%; /* The width is 20%, by default */
 }
 
@@ -151,10 +153,16 @@ blockquote{
 }
 
 .menuBtn {
+  /*font-size:30px;
   /*display: inline-block;*/
   cursor:pointer;
   float:right;
-  padding: max(17px, 2%);
+  /*padding: max(17px, 2%);*/
+  padding: 1.5%;
+}
+
+span:hover{
+  background-color: rgb(230, 230, 230);
 }
 
 .bar1, .bar2, .bar3 {
@@ -183,7 +191,7 @@ blockquote{
 }
 
 .topncontainer button:hover {
-  background-color: #ddd;
+  background-color: rgb(26, 24, 24);
 }
 
 .sidenav {
@@ -210,17 +218,19 @@ blockquote{
 
 .sidenav a:hover {
   color: #f1f1f1;
+  background-color: rgb(32, 32, 32);
 }
 
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  left: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
