@@ -33,11 +33,18 @@ function menuBtnToggle(x) {
 }
 
 function logoHover(x) {
-  x.style.backgroundColor = "rgb(230,230,230)";
+  if (window.matchMedia("(min-width: 900px)").matches) {
+/* the view port is at least 900 pixels wide*/
+x.style.backgroundColor = "rgb(230,230,230)";
+} 
+  
 }
 
 function logoHoverOut(x) {
-  x.style.backgroundColor = "whitesmoke";
+  if (window.matchMedia("(min-width: 900px)").matches) {
+/* the view port is at least 900 pixels wide*/
+x.style.backgroundColor = "whitesmoke";
+} 
 }
 
 //for side menu animation
