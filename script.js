@@ -32,6 +32,14 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 
+function logoHover(x) {
+  x.style.backgroundColor = "rgb(230,230,230)";
+}
+
+function logoHoverOut(x) {
+  x.style.backgroundColor = "whitesmoke";
+}
+
 //for side menu animation
 var checkNavOpen = 0;
 function openOrCloseNav() {
