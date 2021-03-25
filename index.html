@@ -10,22 +10,23 @@
     <link rel=stylesheet href=index.css>
     <script type="text/javascript" src = "script.js"></script>
     <div class=topnav id=myTopnav>
-      <a href=index.html><img class="logo" src=ellipsisLong.svg style=width:25% height:25%></a>
-      <div class="container" onclick="myFunction(this)">
+      <a href=index.html><img class="logo" onmouseover="logoHover(this)" onmouseout="logoHoverOut(this)"src=ellipsisLong.svg></a>
+      <div class="container" onclick="menuBtnToggle(this)">
         <span class="menuBtn" onclick="openOrCloseNav()">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
-        </span>
-      </div>
-    
+      
+    </span>
+    </div>
       <div id="mySidenav" class="sidenav">
         <a href=index.html>Home</a>
         <a href=latestMeditations.html>Latest</a>
         <a href=search.html>Search</a>
+        <a href=test.html style=color:black>Test</a>
       </div>
       
-      <!--<a href=test.html style=color:black>Test</a>-->
+      
     </div>
     
   </head>
