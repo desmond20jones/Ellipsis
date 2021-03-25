@@ -28,7 +28,7 @@ function showSlides(n) {
 }
 
 //for menu icon animation
-function myFunction(x) {
+function menuBtnToggle(x) {
   x.classList.toggle("change");
 }
 
