@@ -3,6 +3,13 @@
   overflow:hidden;
   max-height: 75px;
 }
+/*
+.banner {
+  background-color: black;
+  overflow:hidden;
+  max-height: 500px;
+  color:white;
+}*/
 
 .logo {
   margin: 1%;
@@ -11,8 +18,8 @@
   width:25%;
   height:25%;
   min-width: 200px;
-  min-height: 50px;
-  max-height: 75px
+  min-height: 20px;
+  max-height: 40px;
   /*width:20%; /* The width is 20%, by default */
 }
 
@@ -234,3 +241,104 @@ span:hover{
   .sidenav a {font-size: 18px;}
 }
 
+.pane{
+  width: 200px; /* width of container */
+  height: 200px; /* height of container */
+  overflow: hidden;
+  border: 5px solid white;
+  text-align: center;
+  margin:auto;
+  padding: 2%;
+}
+
+.pane:hover {
+  opacity: 50%;
+  width: 210px; /* width of container */
+  height: 200px; /* height of container */
+  color: rgb(245, 245, 245);
+}
+
+.banner {
+    overflow:hidden;
+    max-height: 500px;
+    position: relative; 
+    display: flex;
+    justify-content:center;
+    color:white;
+    background-color:black;
+    margin-top:10px;
+}
+.banner img{
+}
+.banner-text {
+  position: relative;
+  line-height: 0.9;
+  align-content: center;
+  margin-left: 1%;
+  margin-right:1%;
+}
+
+.paneUpdate {
+    overflow:hidden;
+    max-height: 50%;
+    max-width:50%;
+    position: relative; 
+    display: flex;
+    justify-content:flex-start;
+    color:black;
+    background-color:whitesmoke;
+    margin-top:10px;
+    margin:auto;
+    text-decoration:none;
+}
+.pane img{
+  float:left;
+  margin-left:0px;
+}
+.paneUpdate:hover {
+  opacity: 50%;
+  width: 55%; /* width of container */
+  /*height: 51; /* height of container */
+  color: rgb(245, 245, 245);
+  background-color:black;
+}
+/*
+.banner::before {    
+      content: "";
+      background-image: url('bnw.jpeg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+*/
+
+
+
+@media screen and (max-width: 600px) {
+  /*.paneUpdate p{
+    display:none;
+    }*/
+  .paneUpdate:hover{
+    background-color:black;
+  }
+  .paneUpdate:hover {
+  opacity: 50%;
+  width: 100%; /* width of container */
+  /*height: 51; /* height of container */
+  color: rgb(245, 245, 245);
+  background-color:black;
+}
+  .paneUpdate {
+    max-width: 100%; /* width of container */
+    max-height: 100%; /* height of container /
+    overflow: visible;*/
+    border: 5px solid white;
+    text-align: center;
+    color:black;
+  }
+  
+}
