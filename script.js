@@ -32,20 +32,22 @@ function menuBtnToggle(x) {
   x.classList.toggle("change");
 }
 
-function logoHover(x) {
+
+function paneHover(x) {
   if (window.matchMedia("(min-width: 900px)").matches) {
-/* the view port is at least 900 pixels wide*/
+// the view port is at least 900 pixels wide
 x.style.backgroundColor = "rgb(230,230,230)";
 } 
   
 }
 
-function logoHoverOut(x) {
+function paneHoverOut(x) {
   if (window.matchMedia("(min-width: 900px)").matches) {
-/* the view port is at least 900 pixels wide*/
+// the view port is at least 900 pixels wide
 x.style.backgroundColor = "whitesmoke";
 } 
 }
+
 
 //for side menu animation
 var checkNavOpen = 0;
