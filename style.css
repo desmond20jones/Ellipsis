@@ -276,6 +276,7 @@ span:hover{
   align-content: center;
   margin-left: 1%;
   margin-right:1%;
+  font-size: 3vw;
 }
 
 .paneUpdate {
@@ -298,10 +299,11 @@ span:hover{
 .paneUpdate:hover {
   opacity: 50%;
   width: 55%; /* width of container */
-  /*height: 51; /* height of container */
-  color: rgb(245, 245, 245);
-  background-color:black;
+  /*height: 51; /* height of container 
+  color: rgb(245, 245, 245);*/
+   background-color: rgb(230, 230, 230);
 }
+
 /*
 .banner::before {    
       content: "";
@@ -339,6 +341,7 @@ span:hover{
     border: 5px solid white;
     text-align: center;
     color:black;
+    font-size: 5vw;
   }
   
 }
