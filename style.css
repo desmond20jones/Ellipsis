@@ -302,7 +302,14 @@ span:hover{
   color: rgb(245, 245, 245);*/
    background-color: rgb(230, 230, 230);
 }
-
+.writings{
+    margin-left:20%;
+    margin-right:20%;
+    }
+blockquote{
+    margin-left:25%;
+    margin-right:25%;
+}
 /*
 .banner::before {    
       content: "";
@@ -348,6 +355,13 @@ span:hover{
     text-align:left;
     justify-content:flex-start;
     line-height: 1.5;
+  }
+  
+  blockquote{
+    margin-left:3.5%;
+    margin-right:3.5%;
+    font-size:4.75vw;
+    line-height:1.45;
   }
   .banner-text {
   position: relative;
