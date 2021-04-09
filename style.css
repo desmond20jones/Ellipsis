@@ -2,7 +2,9 @@
   background-color: whitesmoke;
   overflow:hidden;
   max-height: 75px;
+  width:100%;
 }
+
 /*
 .banner {
   background-color: black;
@@ -10,6 +12,22 @@
   max-height: 500px;
   color:white;
 }*/
+
+.signature img{
+  width:25%;
+  height:25%;
+  float:right;
+  min-width:100px;
+  min-height:50px;
+}
+.signature{
+  float:right;
+  align-items: right;
+  margin-bottom:10px;
+}
+hr{
+  width:100%;
+}
 
 .logo {
   margin: 1%;
