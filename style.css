@@ -395,7 +395,24 @@ blockquote{
   margin-right:1%;
   font-size: 2.55vw;
   word-break: break-word;
-  }/*
+  }
+  .logo {
+    max-width:150px;
+    max-height:150px;
+    margin-top:10%;
+    padding:0px;
+    margin-bottom:5%;
+    margin-right:0px;
+    margin-left:0px;
+  }
+  .menuBtn {
+  margin-top:5%;
+  padding:0px;
+  margin-bottom:5%;
+  margin-right:0px;
+  margin-left:0px;
+}
+  /*
 .banner {
     overflow:hidden;
     max-height: 500px;
