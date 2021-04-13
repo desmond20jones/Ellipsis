@@ -397,9 +397,9 @@ blockquote{
   word-break: break-word;
   }
   .logo {
-    max-width:150px;
-    max-height:150px;
-    margin-top:10%;
+    max-width:200px;
+    max-height:200px;
+    margin-top:25px;
     padding:0px;
     margin-bottom:5%;
     margin-right:0px;
@@ -409,7 +409,7 @@ blockquote{
   margin-top:5%;
   padding:0px;
   margin-bottom:5%;
-  margin-right:0px;
+  margin-right:10px;
   margin-left:0px;
 }
   /*
