@@ -320,11 +320,14 @@ span:hover{
   margin-left:0px;
 }
 .paneUpdate:hover {
-  opacity: 50%;
+  
   width: 55%; /* width of container */
   /*height: 51; /* height of container 
-  color: rgb(245, 245, 245);*/
-   background-color: rgb(230, 230, 230);
+  opacity: 50%;
+  color: rgb(245, 245, 245);
+   background-color: rgb(230, 230, 230);*/
+   background-color: black;
+   color:white;
 }
 .writings{
     margin-left:20%;
